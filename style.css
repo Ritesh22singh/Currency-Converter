@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+
+    /* Here I set margin and padding for whole page */
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #A38560;
+
+    /* In this section we are styling body part where our currency converter is placed */
+}
+
+.container {
+    background-color: white;
+    padding: 2rem;
+    border-radius: 1rem;
+    min-height: 45vh;
+    width: 40vh;
+
+    /* Here we place our hero element like what conetent is in our app */
+
+}
+
+.amount p {
+    margin-top: 5vh;
+    margin-bottom: 4vh;
+
+    /* This code is for paragraph tag */
+}
+
+.form{
+    margin: 2rem 0 1rem 0;
+    /* This is for form tag */
+}
+
+form button, select, input {
+    width: 100%;
+    border: none;
+    outline: none;
+    border-radius: 0.75rem;
+
+    /* Here we styling button,select and input tag */
+}
+
+form input {
+    border: 1px solid lightslategray;
+    font-size: 1rem;
+    height: 3rem;
+    padding-left: 0.5rem;
+
+    /* This one is for form input */
+}
+
+.dropdown{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 2rem;
+
+    /* This one is for dropdown class  */
+
+}
+
+.select-container img {
+    max-width: 2rem;
+
+    /* This one is exchange  icon which we insert from font awesome */
+}
+
+.select-container {
+    display: flex;
+    width: 5rem;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0.5rem;
+    border: 1px solid lightyellow;
+
+    /* Here We styling the dropdown where there are multiple country  */
+}
+
+.select-container select {
+    font-size: 1rem;
+    width: auto;
+
+    /* This one is for select-container select option */
+}
+
+.msg{
+    margin: 2rem 0 2rem 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    /* Here we styling msg class */
+
+}
+
+form button {
+    height: 3rem;
+    background-color: #41292C;
+    color: white;
+    font-size: 1rem;
+    cursor: pointer;
+
+    /* This one is for button tag  */
+}
